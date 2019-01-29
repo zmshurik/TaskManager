@@ -9,7 +9,7 @@ class User < ApplicationRecord
   validates :last_name, length: { minimum: 2 }
   validates :email, presence: true
   validates :email, uniqueness: true
-  validates :email, format: { with: /^[^@\s]+@[^@\s]+$/i,
+  validates :email, format: { with: /[^@\s]+@[^@\s]+/,
                               message: 'Email is invalid!' }
   validates :email, uniqueness: true
 end
