@@ -14,7 +14,7 @@ gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
-gem 'mini_racer', platforms: :ruby
+gem 'therubyracer'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
@@ -61,3 +61,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'simple_form'
 gem 'state_machines'
 gem 'state_machines-activerecord'
+gem "slim-rails"
+gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem "twitter-bootstrap-rails"
+gem "jquery-rails"
