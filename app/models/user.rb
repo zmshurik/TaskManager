@@ -12,4 +12,8 @@ class User < ApplicationRecord
   validates :email, format: { with: /[^@\s]+@[^@\s]+/,
                               message: 'Email is invalid!' }
   validates :email, uniqueness: true
+
+  def name
+    "#{first_name} #{last_name}"
+  end
 end
