@@ -41,6 +41,7 @@ group :development, :test do
   gem 'rubocop'
   gem 'simplecov', require: false
   gem 'coveralls', require: false
+  gem 'bullet'
 end
 
 group :development do
