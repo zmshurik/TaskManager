@@ -1,9 +1,9 @@
 FactoryBot.define do
   factory :user do
-    first_name { generate :string }
-    last_name { generate :string }
-    password { generate :string }
+    first_name
+    last_name
+    password
     email
-    type { "Developer" }
+    type { %w[Developer Admin Manager].sample }
   end
 end
