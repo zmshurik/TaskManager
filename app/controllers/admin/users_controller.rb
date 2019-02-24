@@ -21,7 +21,7 @@ class Admin::UsersController < Admin::ApplicationController
     if @user.save
       redirect_to admin_users_path
     else
-      render :new_admin_user_path
+      render :new
     end
   end
 
