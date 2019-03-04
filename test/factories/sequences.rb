@@ -11,4 +11,7 @@ FactoryBot.define do
   sequence :password do
     '123456'
   end
+  sequence :string do |n|
+    "string#{n}"
+  end
 end
