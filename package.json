@@ -2,6 +2,11 @@
   "name": "task_manager",
   "private": true,
   "dependencies": {
+    "@rails/webpacker": "3.5",
+    "babel-preset-react": "^6.24.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
     "webpacker-react": "^0.3.2"
   },
   "devDependencies": {
@@ -10,6 +15,7 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.11.0",
-    "prettier": "^1.16.4"
+    "prettier": "^1.16.4",
+    "webpack-dev-server": "2.11.2"
   }
 }
